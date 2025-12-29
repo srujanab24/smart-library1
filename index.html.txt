@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Library Book Retrieval System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Smart Library Book Retrieval System</h1>
+    <p>Fast book searching, availability tracking, rack location display, and recommendations</p>
+  </header>
+
+  <section id="search">
+    <h2>Find a Book</h2>
+    <input type="text" id="searchBox" placeholder="Search by title or author...">
+    <button onclick="searchBook()">Search</button>
+    <div id="results"></div>
+  </section>
+
+  <section id="features">
+    <h2>System Features</h2>
+    <div class="feature">
+      <h3>📚 Fast Book Search</h3>
+      <p>Quickly search by title, author, or category.</p>
+    </div>
+    <div class="feature">
+      <h3>✅ Availability Tracking</h3>
+      <p>Check if a book is currently available or issued.</p>
+    </div>
+    <div class="feature">
+      <h3>📍 Rack Location Display</h3>
+      <p>Find the exact rack location of your desired book.</p>
+    </div>
+    <div class="feature">
+      <h3>🤖 Related Book Recommendations</h3>
+      <p>Discover similar books based on category.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Smart Library Book Retrieval System | Academic Mini Project</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
